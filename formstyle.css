@@ -23,6 +23,13 @@ input[type="text"], input[type="email"], input[type="number"], input[type="subje
 input::placeholder {
     color: #000000;
 }
+input,select {
+    width: 90%;
+    padding: 10px;
+    margin: 10px 0;
+    background-color: #757272;
+    border-radius: 5px;
+}
 input[type="submit"] {
     width: 30%;
     padding: 10px;
@@ -34,4 +41,5 @@ input[type="submit"] {
     border: none;
     border-radius: 5px;
     cursor: pointer;
+
 }
